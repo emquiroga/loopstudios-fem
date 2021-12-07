@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 const Header = () => {
   const CONTENT = ["IMMERSIVE", "EXPERIENCES", "THAT", "DELIVER"];
   return (
-    <header className="red">
+    <header>
       <Navbar />
       <div className="container">
         {CONTENT.map((item) => (
