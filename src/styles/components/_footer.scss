@@ -2,7 +2,7 @@ footer {
   width: 100%;
   display: flex;
   margin: 0;
-  padding-top: 3rem;
+  padding: 1rem 0 2rem 0;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
@@ -12,6 +12,7 @@ footer {
 
   img {
     width: 150px;
+    margin: 2rem;
   }
 
   .footer-links {
@@ -25,6 +26,7 @@ footer {
       padding: 1rem 0;
       color: $white;
       text-decoration: none;
+      font-family: $fontPrimary;
     }
   }
   .media-wrapper {
@@ -34,8 +36,11 @@ footer {
     align-items: center;
     width: 50%;
     padding: 2rem 0 1rem 0;
+    margin: 1.5rem;
   }
   .copy {
-    color: $darkerGray;
+    color: $darkGray;
+    font-weight: 700;
+    font-family: $fontSecondary;
   }
 }

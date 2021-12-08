@@ -1,0 +1,47 @@
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  padding: 1rem;
+  background-color: $black;
+  z-index: 10;
+  overflow: hidden;
+
+  .top-wrapper {
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+    button {
+      margin-left: auto;
+      background: transparent;
+      border: none;
+    }
+  }
+  .container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .links-wrapper {
+      margin-left: 1rem;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 1rem;
+
+      a {
+        text-decoration: none;
+        color: $white;
+        font-size: 2rem;
+        font-weight: 300;
+        font-family: $fontSecondary;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}

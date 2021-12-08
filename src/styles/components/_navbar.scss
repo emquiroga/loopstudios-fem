@@ -6,7 +6,9 @@ nav {
   flex-flow: row wrap;
   align-items: center;
 
-  svg {
+  button {
     margin-left: auto;
+    background: transparent;
+    border: none;
   }
 }
