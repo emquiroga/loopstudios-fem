@@ -10,21 +10,35 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  @media screen and (min-width: $large) {
+    background-image: $headerDesktop;
+    height: 100%;
+  }
 
   .container {
     width: 75%;
+    max-width: 465px;
     margin: auto;
-    padding: 1.5rem;
-    border: 2px solid $white;
+    padding: 0;
+    border: 2px solid $darkGray;
+    @media screen and (min-width: $large) {
+      margin: 2rem 0 5rem 10vw;
+    }
 
     p {
       margin: 0;
-      padding: 0;
+      padding: 1rem 3rem 1rem 1rem;
       text-align: left;
       font-size: 30px;
       color: $white;
       line-height: 2.5rem;
       letter-spacing: 2px;
+      @media screen and (min-width: $tablet) {
+        font-size: 40px;
+        line-height: 3rem;
+        letter-spacing: 4px;
+        padding: 1.5rem 3rem 1.5rem 1.5rem;
+      }
     }
   }
 }

@@ -20,6 +20,13 @@ const Navbar = () => {
         </svg>
       </button>
       {isOpen && <MobileMenu onClose={handleModal} />}
+      <div className="nav-links">
+        <a href="/">About</a>
+        <a href="/">Careers</a>
+        <a href="/">Events</a>
+        <a href="/">Products</a>
+        <a href="/">Support</a>
+      </div>
     </nav>
   );
 };

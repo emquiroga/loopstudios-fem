@@ -1,3 +1,5 @@
+//Fonts
+
 $fontPrimary: "Alata", sans-serif;
 $fontSecondary: "Josefin Sans", sans-serif;
 
@@ -11,3 +13,29 @@ $darkerGray: hsl(0, 0%, 41%);
 //BG Images:
 
 $headerMobile: url("/assets/images/mobile/image-hero.jpg");
+$headerDesktop: url("/assets/images/desktop/image-hero.jpg");
+
+$earthMobile: url("/assets/images/mobile/image-deep-earth.jpg");
+$earthDesktop: url("/assets/images/desktop/image-deep-earth.jpg");
+$arcadeMobile: url("/assets/images/mobile/image-night-arcade.jpg");
+$arcadeDesktop: url("/assets/images/desktop/image-night-arcade.jpg");
+$soccerMobile: url("/assets/images/mobile/image-soccer-team.jpg");
+$soccerDesktop: url("/assets/images/desktop/image-soccer-team.jpg");
+$gridMobile: url("/assets/images/mobile/image-grid.jpg");
+$gridDesktop: url("/assets/images/desktop/image-grid.jpg");
+$aboveMobile: url("/assets/images/mobile/image-from-above.jpg");
+$aboveDesktop: url("/assets/images/desktop/image-from-above.jpg");
+$borealisMobile: url("/assets/images/mobile/image-pocket-borealis.jpg");
+$borealisDesktop: url("/assets/images/desktop/image-pocket-borealis.jpg");
+$curiosityMobile: url("/assets/images/mobile/image-curiosity.jpg");
+$curiosityDesktop: url("/assets/images/desktop/image-curiosity.jpg");
+$fisheyeMobile: url("/assets/images/mobile/image-fisheye.jpg");
+$fisheyeDesktop: url("/assets/images/desktop/image-fisheye.jpg");
+
+//Breakpoints:
+$small: "30em";
+$medium: "40em";
+$tablet: "48em";
+$large: "64em";
+$xlarge: "90em";
+$xxlarge: "120em";

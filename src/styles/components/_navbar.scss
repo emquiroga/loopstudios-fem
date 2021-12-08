@@ -6,9 +6,31 @@ nav {
   flex-flow: row wrap;
   align-items: center;
 
+  @media screen and (min-width: $large) {
+    padding: 3rem;
+  }
+
+  .nav-links {
+    display: none;
+    @media screen and (min-width: $large) {
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: auto;
+      gap: 2rem;
+    }
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
   button {
     margin-left: auto;
     background: transparent;
     border: none;
+
+    @media screen and (min-width: $large) {
+      display: none;
+    }
   }
 }

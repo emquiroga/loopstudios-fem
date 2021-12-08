@@ -1,22 +1,43 @@
 .VRcontainer {
   width: 90%;
   margin: auto;
+  position: relative;
   padding-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-
-  p {
-    width: 80%;
-    font-weight: 600;
-    color: $darkGray;
-    line-height: 1.6rem;
+  @media (min-width: $large) {
+    width: 100%;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: left;
   }
-
   img {
     width: 100%;
+    max-width: 520px;
     margin: auto;
+    @media (min-width: $large) {
+      margin: 1rem 3rem;
+    }
+  }
+  .VRtext {
+    width: 80%;
+    @media (min-width: $large) {
+      max-width: 380px;
+      padding: 2rem;
+      background-color: $white;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: translate(-115px, 50px);
+    }
+
+    p {
+      font-weight: 600;
+      color: $darkGray;
+      line-height: 1.6rem;
+    }
   }
 }
