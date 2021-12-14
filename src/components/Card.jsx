@@ -14,7 +14,9 @@ const Card = () => {
       {CONTENT.map((text, index) => {
         return (
           <div className="card" key={index}>
-            <p className="creation-text">{text}</p>
+            <div className="creation-text">
+              <p>{text}</p>
+            </div>
           </div>
         );
       })}

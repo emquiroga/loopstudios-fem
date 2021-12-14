@@ -10,6 +10,10 @@ $black: hsl(0, 0%, 0%);
 $darkGray: hsl(0, 0%, 55%);
 $darkerGray: hsl(0, 0%, 41%);
 
+//Hover effects:
+
+$border-bottom: 2px inset $white;
+
 //BG Images:
 
 $headerMobile: url("/assets/images/mobile/image-hero.jpg");

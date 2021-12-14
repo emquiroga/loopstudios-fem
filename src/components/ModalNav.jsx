@@ -5,7 +5,7 @@ import Logo from "../assets/images/logo.svg";
 
 const ModalNav = ({ onClose }) => {
   return (
-    <div className="modal-bg">
+    <div className="modal-bg animate__animated animate__fadeInDown">
       <div className="top-wrapper">
         <img src={Logo} alt="Logo" />
         <button className="close-button" onClick={onClose}>

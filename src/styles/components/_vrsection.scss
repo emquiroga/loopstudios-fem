@@ -1,5 +1,6 @@
 .VRcontainer {
   width: 90%;
+  max-width: 1024px;
   margin: auto;
   position: relative;
   padding-top: 5rem;
@@ -35,7 +36,8 @@
     }
 
     p {
-      font-weight: 600;
+      font-weight: 400;
+      font-family: $fontPrimary;
       color: $darkGray;
       line-height: 1.6rem;
     }
