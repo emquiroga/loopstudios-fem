@@ -11,6 +11,11 @@ Users should be able to:
 
 ### Screenshot
 
+<p align="center">
+  <img src="https://ibb.co/V9vdfXS" width="550">
+  <img src="https://ibb.co/ZB6Psgx" width="550">
+</p>
+
 ![Mobile](https://ibb.co/V9vdfXS)
 ![Desktop](https://ibb.co/ZB6Psgx)
 
