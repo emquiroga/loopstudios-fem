@@ -29,13 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://ibb.co/V9vdfXS)
-![](https://ibb.co/ZB6Psgx)
+![1](https://ibb.co/V9vdfXS)
+![2](https://ibb.co/ZB6Psgx)
 
 ### Links
 
-- Solution URL: [](https://github.com/emquiroga/loopstudios-fem)
-- Live Site URL: [](https://loopstudios-fem-rho.vercel.app/)
+- Solution URL: [Link](https://github.com/emquiroga/loopstudios-fem)
+- Live Site URL: [Link](https://loopstudios-fem-rho.vercel.app/)
 
 ## My process
 
