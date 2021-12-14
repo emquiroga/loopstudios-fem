@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="https://ibb.co/V9vdfXS" />
-<img src="https://ibb.co/ZB6Psgx" />
+![Mobile](https://ibb.co/V9vdfXS)
+![Desktop](https://ibb.co/ZB6Psgx)
 
 ### Links
 
